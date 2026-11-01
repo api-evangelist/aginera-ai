@@ -1,4 +1,4 @@
-# aginera-ai
+# Aginera
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aginera-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aginera.ai/
+Aginera provides AI‑powered MEP takeoff and estimating software for construction professionals. Its platform automates extraction of quantities, bills of materials, and cost estimates from PDF and CAD drawings, supporting electrical, mechanical, plumbing, and structural workflows. With features like PDF‑to‑BOM, CAD‑to‑3D, and integrations with popular design tools, Aginera helps contractors and designers accelerate pre‑construction planning, reduce manual effort, and improve accuracy across projects.
+
+**Areas:** AI · Construction · Estimating · MEP · Software
+
+## Aginera on APIs.io
+
+Everything profiled for Aginera is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aginera-ai/](https://apis.io/providers/aginera-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Aginera Billing API](https://apis.io/apis/aginera-ai/aginera-ai-billing-api/) — Account — credits.
+- [Aginera CAD API](https://apis.io/apis/aginera-ai/aginera-ai-cad-api/) — PDF→CAD conversion — converting and viewing are free; the DXF/DWG download is a one-time purchase per document on free accounts; the website's own pricing,…
+- [Aginera Clients API](https://apis.io/apis/aginera-ai/aginera-ai-clients-api/) — Account — the calling credential and capabilities.
+- [Aginera Documents API](https://apis.io/apis/aginera-ai/aginera-ai-documents-api/) — Foundation — drawing ingestion.
+- [Aginera Exports API](https://apis.io/apis/aginera-ai/aginera-ai-exports-api/) — Takeoff API — export results.
+- [Aginera Projects API](https://apis.io/apis/aginera-ai/aginera-ai-projects-api/) — Foundation — containers for documents and takeoffs.
+- [Aginera Reference API](https://apis.io/apis/aginera-ai/aginera-ai-reference-api/) — Public taxonomy and enumerations.
+- [Aginera Takeoffs API](https://apis.io/apis/aginera-ai/aginera-ai-takeoffs-api/) — Takeoff API — run MEP quantity takeoffs and read items, routes and schedules.
+- [Aginera Usage API](https://apis.io/apis/aginera-ai/aginera-ai-usage-api/) — Account — usage reporting.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aginera Ai Agentic Access](https://apis.io/agentic-access/aginera-ai/aginera-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CadFileResult](https://apis.io/schemas/aginera-ai/aginera-ai-cad-file-result/)
+- [CadStatus](https://apis.io/schemas/aginera-ai/aginera-ai-cad-status/)
+- [Capabilities](https://apis.io/schemas/aginera-ai/aginera-ai-capabilities/)
+- [DocumentCreate](https://apis.io/schemas/aginera-ai/aginera-ai-document-create/)
+- [Takeoff](https://apis.io/schemas/aginera-ai/aginera-ai-takeoff/)
+- [TakeoffItem](https://apis.io/schemas/aginera-ai/aginera-ai-takeoff-item/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aginera Ai Context](https://apis.io/jsonld/aginera-ai/aginera-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Aginera API Rules](https://apis.io/rules/aginera-ai/aginera-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aginera Ai Authentication](https://apis.io/security/aginera-ai/aginera-ai-authentication/)
+- [Aginera Ai Domain Security](https://apis.io/security/aginera-ai/aginera-ai-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Aginera Ai Scopes](https://apis.io/scopes/aginera-ai/aginera-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aginera Ai Plans Pricing](https://apis.io/plans/aginera-ai/aginera-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aginera.ai/)
+- [Documentation](https://aginera.ai/docs)
+- [Getting started](https://aginera.ai/docs/getting-started)
+- [API reference](https://aginera.ai/docs/developer/api-reference)
+- [Pricing](https://aginera.ai/pricing)
+- [Sign up](https://aginera.ai/auth/signin)
+- [Blog](https://aginera.ai/blog)
+- [Terms of service](https://aginera.ai/terms)
+- [Privacy policy](https://aginera.ai/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.5** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 57.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 49.3 |
+| Access clarity | 73.2 |
+
+**Agent readiness 48.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | negotiable (partial credit) |
+| Idempotency | verified |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | documented (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aginera-ai/](https://apis.io/providers/aginera-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aginera: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aginera-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
