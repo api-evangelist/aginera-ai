@@ -66,7 +66,7 @@
 
 Aginera provides AI‑powered MEP takeoff and estimating software for construction professionals. Its platform automates extraction of quantities, bills of materials, and cost estimates from PDF and CAD drawings, supporting electrical, mechanical, plumbing, and structural workflows. With features like PDF‑to‑BOM, CAD‑to‑3D, and integrations with popular design tools, Aginera helps contractors and designers accelerate pre‑construction planning, reduce manual effort, and improve accuracy across projects.
 
-**Areas:** AI · Construction · Estimating · MEP · Software
+**Areas:** Artificial Intelligence · Construction · Estimating · MEP · Software
 
 ## Aginera on APIs.io
 
@@ -92,18 +92,31 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Aginera Ai Agentic Access](https://apis.io/agentic-access/aginera-ai/aginera-ai-agentic-access/)
+- [Aginera Agentic Access](https://apis.io/agentic-access/aginera-ai/aginera-ai-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (19)
 
 The data models the API reads and writes.
 
 - [CadFileResult](https://apis.io/schemas/aginera-ai/aginera-ai-cad-file-result/)
 - [CadStatus](https://apis.io/schemas/aginera-ai/aginera-ai-cad-status/)
 - [Capabilities](https://apis.io/schemas/aginera-ai/aginera-ai-capabilities/)
+- [Credits](https://apis.io/schemas/aginera-ai/aginera-ai-credits/)
+- [DisciplineList](https://apis.io/schemas/aginera-ai/aginera-ai-discipline-list/)
 - [DocumentCreate](https://apis.io/schemas/aginera-ai/aginera-ai-document-create/)
+- [Export](https://apis.io/schemas/aginera-ai/aginera-ai-export/)
+- [ExportCreate](https://apis.io/schemas/aginera-ai/aginera-ai-export-create/)
+- [ExportFormatList](https://apis.io/schemas/aginera-ai/aginera-ai-export-format-list/)
+- [Project](https://apis.io/schemas/aginera-ai/aginera-ai-project/)
+- [ProjectCreate](https://apis.io/schemas/aginera-ai/aginera-ai-project-create/)
+- [ProjectList](https://apis.io/schemas/aginera-ai/aginera-ai-project-list/)
+- [ProjectUpdate](https://apis.io/schemas/aginera-ai/aginera-ai-project-update/)
 - [Takeoff](https://apis.io/schemas/aginera-ai/aginera-ai-takeoff/)
 - [TakeoffItem](https://apis.io/schemas/aginera-ai/aginera-ai-takeoff-item/)
+- [Taxonomy](https://apis.io/schemas/aginera-ai/aginera-ai-taxonomy/)
+- [UnitList](https://apis.io/schemas/aginera-ai/aginera-ai-unit-list/)
+- [UsageEventList](https://apis.io/schemas/aginera-ai/aginera-ai-usage-event-list/)
+- [UsageReport](https://apis.io/schemas/aginera-ai/aginera-ai-usage-report/)
 
 #### JSON-LD (1)
 
@@ -121,20 +134,20 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Aginera Ai Authentication](https://apis.io/security/aginera-ai/aginera-ai-authentication/)
-- [Aginera Ai Domain Security](https://apis.io/security/aginera-ai/aginera-ai-domain-security/)
+- [Aginera Authentication](https://apis.io/security/aginera-ai/aginera-ai-authentication/)
+- [Aginera Domain Security](https://apis.io/security/aginera-ai/aginera-ai-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [Aginera Ai Scopes](https://apis.io/scopes/aginera-ai/aginera-ai-scopes/)
+- [Aginera Scopes](https://apis.io/scopes/aginera-ai/aginera-ai-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Aginera Ai Plans Pricing](https://apis.io/plans/aginera-ai/aginera-ai-plans-pricing/)
+- [Aginera Plans Pricing](https://apis.io/plans/aginera-ai/aginera-ai-plans-pricing/)
 
 ## Where to find this API
 
@@ -152,32 +165,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.5** — strong · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 51.4** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 57.6 |
-| Contract governance | 79.1 |
+| Discoverability | 83.9 |
+| Contract quality | 60.6 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 49.3 |
-| Access clarity | 73.2 |
+| Developer ergonomics | 44.6 |
+| Access clarity | 76.6 |
 
-**Agent readiness 48.5** — agent-ready (gated down from agent-native)
+**Agent readiness 38.2** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | negotiable (partial credit) |
 | Idempotency | verified |
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | unknown |
+| Agent Skills | derived (partial credit) |
 | Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | conformant |
@@ -188,8 +201,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aginera-ai/](https://apis.io/providers/aginera-ai/).
 
